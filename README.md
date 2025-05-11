@@ -25,3 +25,6 @@ public ActionResult SubmitForm(MyModel model) {
 2) What is view state in webforms
  In ASP.NET Web Forms, ViewState is a hidden field that automatically stores the state of controls (like textboxes, dropdowns) between HTTP requests. It makes Web Forms more stateful.
 <input type="hidden" name="__VIEWSTATE" value="..." />
+
+3)Model binding 
+Model binding in Web Forms allows you to bind data from HTTP requests (like form inputs, query strings, etc.) to method parameters or data-bound controls (like GridView, ListView, etc.) without writing much boilerplate code.
