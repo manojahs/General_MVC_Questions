@@ -21,3 +21,7 @@ If they don't match, the request is rejected.
 public ActionResult SubmitForm(MyModel model) {
     // Process form if token is valid
 }
+
+2) What is view state in webforms
+ In ASP.NET Web Forms, ViewState is a hidden field that automatically stores the state of controls (like textboxes, dropdowns) between HTTP requests. It makes Web Forms more stateful.
+<input type="hidden" name="__VIEWSTATE" value="..." />
